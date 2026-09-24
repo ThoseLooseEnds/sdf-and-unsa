@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDF × UNSA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="crt"></div>
+
+  <main class="site">
+    <section id="home" class="screen active">
+      <div class="terminal-top">
+        <span>&gt; SDF × UNSA</span>
+      </div>
+
+      <div class="logo-row">
+        <div class="logo-unit">
+          <img src="assets/sdf-logo.png" alt="SDF logo">
+          <div class="logo-label">SDF</div>
+        </div>
+
+        <div class="cross">X</div>
+
+        <div class="logo-unit">
+          <img src="assets/unsa-logo.png" alt="UNSA logo">
+          <div class="logo-label">UNSA</div>
+        </div>
+      </div>
+
+      <div class="welcome">
+        <h1>WELCOME, SOLDIER.</h1>
+        <p>YOU'VE REACHED OUR SAFE HAVEN.</p>
+      </div>
+
+      <div class="quotes">
+        <p><strong>"Freedom has no place in the light of our sun." — SDF High Council</strong></p>
+        <p><strong>"Peace to the Fallen." — Black Sky</strong></p>
+      </div>
+
+      <div class="gluttony">EXCESS GLUTTONY</div>
+
+      <button id="enterBtn" class="enter-btn">[ ENTER ]</button>
+
+      <div class="terminal-bottom">
+        <span>&gt; SECURE NETWORK</span>
+        <span>&gt; ACCESS GRANTED</span>
+      </div>
+    </section>
+
+    <section id="hub" class="screen hidden">
+      <div class="section-heading">// SELECT</div>
+
+      <div class="choice-grid">
+        <button class="choice" data-target="information">
+          <span class="choice-title">INFORMATION</span>
+          <span class="choice-sub">&gt; OPEN FILE</span>
+        </button>
+
+        <button class="choice" data-target="purpose">
+          <span class="choice-title">PURPOSE</span>
+          <span class="choice-sub">&gt; OPEN FILE</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="information" class="screen hidden page">
+      <button class="back" data-target="hub">&lt; BACK</button>
+      <div class="section-heading">// INFORMATION</div>
+
+      <div class="info-block">
+        <div class="label">USERNAME :</div>
+        <div class="value">AFROSTYGOD</div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="info-block">
+        <div class="label">GAMES I PLAY :</div>
+        <div class="games">
+          <div>CALL OF DUTY INFINITE WARFARE</div>
+          <div>MINECRAFT</div>
+          <div>FIFA</div>
+          <div>GOD OF WAR</div>
+        </div>
+      </div>
+
+      <div class="extra-info">
+        <div class="extra-info-text">I DONT KNOW WHAT ELSE TO PUT HERE.</div>
+        <img class="info-image" src="assets/city.jpg" alt="Night city skyline">
+      </div>
+    </section>
+
+    <section id="purpose" class="screen hidden page">
+      <button class="back" data-target="hub">&lt; BACK</button>
+      <div class="section-heading">// PURPOSE</div>
+      <div class="purpose-content">
+        <div class="purpose-line"></div>
+        <h2>TO OVERCOME</h2>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
